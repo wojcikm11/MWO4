@@ -23,7 +23,6 @@ public class QuickSort implements SortingAlgorithm {
     private void quicksort(double[] data, int left, int right) {
         if (left < right) {
             int pivot = splitData(data, left, right);
-            System.out.println(pivot);
             quicksort(data, left, pivot - 1);
             quicksort(data, pivot + 1, right);
         }
