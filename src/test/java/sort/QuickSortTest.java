@@ -88,7 +88,7 @@ public class QuickSortTest {
         double[] expected = {Double.MAX_VALUE};
 
         // then
-        assertArrayEquals(expected, actual, 0);
+        assertArrayEquals(new double[0], actual, 0);
     }
 
     @Test
