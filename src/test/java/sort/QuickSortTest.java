@@ -26,7 +26,6 @@ public class QuickSortTest {
         double[] numbers = {3, -2, 4, 9, 12, 5};
 
         // when
-        sortingAlgorithm = new QuickSort();
         sortingAlgorithm.sort(numbers);
         double[] expected = {3, -2, 4, 9, 12, 5};
 
