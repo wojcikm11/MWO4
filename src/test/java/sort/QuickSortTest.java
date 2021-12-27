@@ -9,12 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class QuickSortTest {
 
-    private static SortingAlgorithm sortingAlgorithm;
-
-    @BeforeAll
-    static void setUp() {
-        sortingAlgorithm = new QuickSort();
-    }
+    private static SortingAlgorithm sortingAlgorithm = new QuickSort();
 
     @Test
     public void test_should_throwIllegalArgumentException_when_givenArrayIsNull() {
@@ -85,7 +80,7 @@ public class QuickSortTest {
 
         // when
         double[] actual = sortingAlgorithm.sort(maxValueArray);
-        double[] expected = {0};
+        double[] expected = {Double.MAX_VALUE};
 
         // then
         assertArrayEquals(expected, actual, 0);
