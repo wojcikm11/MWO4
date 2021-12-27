@@ -85,10 +85,10 @@ public class QuickSortTest {
 
         // when
         double[] actual = sortingAlgorithm.sort(maxValueArray);
-        double[] expected = {Double.MAX_VALUE};
+        double[] expected = {0};
 
         // then
-        assertArrayEquals(new double[0], actual, 0);
+        assertArrayEquals(expected, actual, 0);
     }
 
     @Test
