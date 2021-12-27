@@ -9,7 +9,7 @@ public class DataReader {
 
     private static final double MAX = 999999999999999999999999999999999999999.0;
     private static final double MIN = -MAX;
-
+dsadasdas
     public static double[] readData(String filePath) throws IllegalArgumentException, FileNotFoundException {
         String strValue = new Scanner(new File(filePath)).useDelimiter("\\Z").next();
         return dataToArray(strValue);
