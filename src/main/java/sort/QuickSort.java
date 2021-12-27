@@ -2,7 +2,6 @@ package sort;
 
 public class QuickSort implements SortingAlgorithm {
 
-    blablabla
     @Override
     public double[] sort(double[] unsortedVector) {
         if (unsortedVector == null) {

@@ -53,7 +53,7 @@ public class QuickSortTest {
 
         // when
         double[] actual = sortingAlgorithm.sort(oneElementArray);
-        double[] expected = {0};
+        double[] expected = {2.5};
 
         // then
         assertArrayEquals(expected, actual, 0);
